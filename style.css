@@ -1,0 +1,153 @@
+*{
+    margin-top: 1em;
+    background-color: rgb(246,239,231);
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   column-gap: 2em;
+   
+}
+
+#h-links{
+    top: 2px;
+    font-size: larger;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    /* text-decoration: none; */
+}
+
+#greencircle{
+    position: relative;   
+    border: 1em; 
+    height: 20em;
+    width: 20em;
+    background-color: rgb(161,180,0) ;
+    border-radius: 20em;        
+}
+
+#whitecircle{    
+    position: absolute;   
+    right: 10em;
+    top: 10em;
+    border: 1em; 
+    
+    height: 10em;
+    width: 10em;
+    background-color:white;
+ 
+    border-radius: 10em;        
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.circles{
+    display: flex;
+
+    position: absolute;
+    justify-content: end;
+    width: 110em;
+    background-color: transparent;
+   
+}
+
+#topcontent{
+    display: flex;
+    position: absolute;
+    width: 70em;
+    flex-direction: row;
+background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+#reactday{
+    display: flex;
+    position: relative;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 7em;
+    font-weight: 600;
+    text-shadow: 3px 5px rgb(116, 106, 106);
+    text-decoration-style: dotted;
+}
+
+#reactinfo{
+    display: flex;
+    top:14em;
+    position: absolute;
+    font-size: x-large;
+}
+
+#line1{ 
+    display: flex;
+    position: absolute;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    width: 1px;
+    margin-left: 50em;
+    height:28em;
+    top: 10em;
+}
+
+.fa-cust{
+    /* background-color: blue; */
+    height: 300px;
+    
+
+}
+.bangImg{
+    margin-left:45em ;
+    height: 30%;
+    width: 30%;
+    margin-top: 6em;
+}
+
+#reactinfo1{
+    display: flex;
+    top:20em;
+    position: absolute;
+    font-size: x-large;
+    left:35em;
+}
+
+#greencircle1{
+    display: flex;
+    position: relative;   
+margin-left: -13em;
+    height: 20em;
+    width: 20em;
+    background-color: rgb(161,180,0) ;
+    border-radius: 20em;        
+}
+
+#elements{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+#elemheading{
+    font-size: 4em;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#eleminfo{      
+    color: gray;
+    font-size: 25px;
+    left:35em;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
